@@ -1,3 +1,3 @@
-PLUGIN.name = "Entitiy Items + Simfphys"
+PLUGIN.name = "Placeable Entities"
 PLUGIN.author = "KarmaLN"
-PLUGIN.description = "Items that are able to spawn Entities or Simfphys Vehicles"
+PLUGIN.description = "Placeable Items that create Entities!"

@@ -2,7 +2,7 @@ ITEM.name = "Entities Base"
 ITEM.model = ""
 ITEM.description = ""
 ITEM.category = "Entities"
-ITEM.entityid = ""
+ITEM.entityclass = ""
 
 ITEM.functions.Place = {
 	OnRun = function(itemTable)
@@ -12,7 +12,7 @@ ITEM.functions.Place = {
 			data.start = client:GetShootPos()
 			data.endpos = data.start + client:GetAimVector() * 96
 			data.filter = client
-    local ent = ents.Create(itemTable.entityid) 
+    local ent = ents.Create(itemTable.entityclass) 
     ent:SetPos(data.endpos) 
     ent:Spawn()
 	
